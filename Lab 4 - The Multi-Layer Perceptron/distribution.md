@@ -4,10 +4,10 @@
 ## Luke (3 points total)
 ### **Load, Split, and Balance (2 points total)**
 
-- [ ] **[.5 points]** (1) Load the data into memory and save it to a pandas data frame. Do not normalize or one-hot encode any of the features until asked to do so later in the rubric. (2) Remove any observations that having missing data. (3) Encode any string data as integers for now. (4) You have the option of keeping the "county" variable or removing it. Be sure to discuss why you decided to keep/remove this variable. 
+- [x] **[.5 points]** (1) Load the data into memory and save it to a pandas data frame. Do not normalize or one-hot encode any of the features until asked to do so later in the rubric. (2) Remove any observations that having missing data. (3) Encode any string data as integers for now. (4) You have the option of keeping the "county" variable or removing it. Be sure to discuss why you decided to keep/remove this variable. 
 The next two requirements will need to be completed together as they might depend on one another:
-- [ ] **[.5 points]** Balance the dataset so that about the same number of instances are within each class. Choose a method for balancing the dataset and explain your reasoning for selecting this method. One option is to choose quantization thresholds for the "ChildPoverty" variable that equally divide the data into four classes. Should balancing of the dataset be done for both the training and testing set? Explain.
-- [ ] **[1.0 points]** Assume you are equally interested in the classification performance for each class in the dataset. Split the dataset into 80% for training and 20% for testing. There is no need to split the data multiple times for this lab.
+- [x] **[.5 points]** Balance the dataset so that about the same number of instances are within each class. Choose a method for balancing the dataset and explain your reasoning for selecting this method. One option is to choose quantization thresholds for the "ChildPoverty" variable that equally divide the data into four classes. Should balancing of the dataset be done for both the training and testing set? Explain.
+- [x] **[1.0 points]** Assume you are equally interested in the classification performance for each class in the dataset. Split the dataset into 80% for training and 20% for testing. There is no need to split the data multiple times for this lab.
 Note: You will need to one hot encode the target, but do not one hot encode the categorical data until instructed to do so in the lab.
 ### **Exceptional Work (1 points total)**
 - [ ] One idea (required for 7000 level students):  Implement adaptive momentum (AdaM) in the five layer neural network and quantify the performance compared to other methods.  
@@ -28,8 +28,7 @@ Quantify the performance of the model and graph the magnitudes for each layer ve
 
 ## Emmanuel & Nimai (6.5 total)
 ### **Modeling**
-- [ ] [1.5 points] Add support for a third layer in the multi-layer perceptron. Add support for saving (and plotting after training is completed) the average magnitude of the gradient for each layer, for each epoch (like we did in the flipped module for back propagation). For magnitude calculation, you are free to use either the average absolute values or the L1/L2 norm.
-- [ ] Quantify the performance of the model and graph the magnitudes for each layer versus the number of epochs.
-- [ ] [1.5 points] Repeat the previous step, adding support for a fourth layer.
-- [ ] [1.5 points] Repeat the previous step, adding support for a fifth layer. 
+- [x] Quantify the performance of the model and graph the magnitudes for each layer versus the number of epochs.
+- [x] [1.5 points] Repeat the previous step, adding support for a fourth layer.
+- [x] [1.5 points] Repeat the previous step, adding support for a fifth layer. 
 - [ ] [2 points] Implement an adaptive learning technique that was discussed in lecture and use it on the five layer network (choose either RMSProp or AdaDelta). Discuss which adaptive method you chose. Compare the performance of your five layer model with and without the adaptive learning strategy. Do not use AdaM for the adaptive learning technique as it is part of the exceptional work.
