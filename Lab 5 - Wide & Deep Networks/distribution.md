@@ -1,5 +1,5 @@
 # **Points/Work Distrbution for Lab 5 - Wide & Deep Networks**
-3 points are distributed among the team members: Nimai, Emmanuel, Luke, and Tiffany. Some parts may overlap and may need more support from rest of team members. If one person is done with their part, they should be available to help out with other people's parts. 
+2.75 points are distributed among the team members: Nimai, Emmanuel, Luke, and Tiffany. Some parts may overlap and may need more support from rest of team members. If one person is done with their part, they should be available to help out with other people's parts. 
 
 ### **Preparation** (4.5 points total)
 - [ ] [1 points] Define and prepare your class variables. Use proper variable representations (int, float, one-hot, etc.). Use pre-processing methods (as needed) for dimensionality reduction, scaling, etc. Remove variables that are not needed/useful for the analysis. Describe the final dataset that is used (include a description of any newly formed variables you created). It is preferred to use tf.dataset and Keras Feature spaces for pre-processing, but it is not required. 
