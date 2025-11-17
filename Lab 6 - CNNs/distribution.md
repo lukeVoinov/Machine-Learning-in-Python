@@ -1,4 +1,7 @@
 # **Points & Work Distribution for Lab 6 -- Convolutional Networks Architecture**
+
+Dataset: https://www.kaggle.com/datasets/praneshmukhopadhyay/youtube-thumbnail-dataset
+
 2.5 points are distributed among the team members: Nimai, Emmanuel, Luke, and Tiffany. Some parts may overlap and may need more support from rest of team members. If one person is done with their part, they should be available to help out with other people's parts.
 **Notes from Town Hall 11/17**
 - Preparation:
