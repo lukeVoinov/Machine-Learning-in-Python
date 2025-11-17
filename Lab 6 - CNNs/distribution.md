@@ -1,9 +1,29 @@
 # **Points & Work Distribution for Lab 6 -- Convolutional Networks Architecture**
 2.5 points are distributed among the team members: Nimai, Emmanuel, Luke, and Tiffany. Some parts may overlap and may need more support from rest of team members. If one person is done with their part, they should be available to help out with other people's parts.
+**Notes from Town Hall 11/17**
+- Preparation:
+    - Training CNNs and comparing it to MLP, needs to be multi-class classification
+    - Don't go too large, maximum 50 classes and max image size 64x64
+    - No datasets from class (saved life bc no business case)
+        - Needs to have business case so we can choose evaluation metrics
+        - Evaluation needs business case, make sure its detailed and argue for them
+        - Business case: what are you evaluating your dataset on? Are there X better than Y items? Ex. medical imaging and x-ray imaging, arguing for it to be a screening tool before going to a radiologist, need to look at cost and dimensions, looking at pneunomia dataset
+        - **NO BINARY CLASSIFICATION!!!!!**
+    - Single split, startified, etc. for train-test split
+- Modeling:
+    - 12a jupyter notebook shows different augmentations
+    - Part 2 of Modeling is being shown on Wednesday (11/19)
+        - Make sure that the models converge
+    - Visualize: tell me which one was best, or if there are a couple that are really good
+- Exceptional Work:
+    - How ever many layers you want (initialize), whatever you want that has been trained on dataset (grab train weights from somewhere else)
+- Questions/Concerns??:
+    - Use GPU to run if we have a small enough dataset
+
 
 ## **Preparation** [3 points]
-- [ ] **[1.5 points]** __Choose and explain what metric(s) you will use to evaluate your algorithm’s performance.__ You should give a detailed argument for why this (these) metric(s) are appropriate on your data. That is, why is the metric appropriate for the task (e.g., in terms of the business case for the task). Mention why the data is similar to CIFAR and CIFAR's excellent business case. Please note: rarely is accuracy the best evaluation metric to use. Think deeply about an appropriate measure of performance.
-- [ ] **[1.5 points]** __Choose the method you will use for dividing your data into training and testing__(i.e., are you using Stratified 10-fold cross validation? Shuffle splits? Why?). Explain why your chosen method is appropriate or use more than one method, as appropriate. Convince me that your splitting method is a realistic mirroring of how an algorithm would be used in practice. 
+- [ ] **[1.5 points]** Choose and explain what metric(s) you will use to evaluate your algorithm’s performance. You should give a detailed argument for why this (these) metric(s) are appropriate on your data. That is, why is the metric appropriate for the task (e.g., in terms of the business case for the task). Mention why the data is similar to CIFAR and CIFAR's excellent business case. Please note: rarely is accuracy the best evaluation metric to use. Think deeply about an appropriate measure of performance.
+- [ ] **[1.5 points]** Choose the method you will use for dividing your data into training and testing(i.e., are you using Stratified 10-fold cross validation? Shuffle splits? Why?). Explain why your chosen method is appropriate or use more than one method, as appropriate. Convince me that your splitting method is a realistic mirroring of how an algorithm would be used in practice. 
 - Note: Above is same as previous lab (Lab 5 - Wide and Deep Networks, refer to Github)
 
 ## **Modeling** [7 points]
