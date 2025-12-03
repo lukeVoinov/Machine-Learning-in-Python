@@ -3,6 +3,7 @@
 Dataset: https://www.kaggle.com/datasets/jonathanpaserman/fed-press-release-text?select=FOMCpresconf20201105.txt
 
 **Notes from Town Hall**:
+
 Preparation:
 - do not try to do translation, don't go beyond what Larson has shown us to do
 - first step: go through the process of tokenization (why you did certain X things), give histograms/graphs showcasing anything
