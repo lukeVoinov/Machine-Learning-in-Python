@@ -2,7 +2,7 @@
 
 https://www.kaggle.com/datasets/programmer3/grammar-error-correction-dataset
 
-We could use this dataset to input the text and output the error type. Thus, if a person says "He bought two breads.", the sequential netwrok should output "Noun Form" 
+We could use this dataset to input the text and output the error type. Thus, if a person says "He bought two breads.", the sequential network should output "Noun Form" 
 
 **Notes from Town Hall**:
 
