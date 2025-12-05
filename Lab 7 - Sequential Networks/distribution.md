@@ -1,6 +1,6 @@
 # **Points & Work Distribution for Lab 7 -- Sequential Networks**
 
-Dataset: https://www.kaggle.com/datasets/jonathanpaserman/fed-press-release-text?select=FOMCpresconf20201105.txt
+https://www.kaggle.com/datasets/programmer3/grammar-error-correction-dataset
 
 **Notes from Town Hall**:
 
